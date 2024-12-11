@@ -1,0 +1,11 @@
+
+footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e3e3e3;
+    padding: 1rem 0;
+}
+
+footer .container p {
+    color: #333;
+    margin-bottom: 0;
+}
