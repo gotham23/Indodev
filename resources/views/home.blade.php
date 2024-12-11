@@ -27,7 +27,6 @@
                     @if(Auth::check())
                         <p class="text-center">Halo, {{ Auth::user()->name }}! Selamat datang kembali di dasbor Anda.</p>
 
-                      
                         <form action="{{ route('logout') }}" method="POST" class="mb-3">
                             @csrf
                             <div class="d-grid">
@@ -35,7 +34,7 @@
                             </div>
                         </form>
 
-                       
+    
                         <div class="d-grid">
                             <a href="{{ route('distributor.index') }}" class="btn btn-primary">Ke Distributor</a>
                         </div>
@@ -51,8 +50,6 @@
             </div>
         </div>
     </div>
-
-  
     @include('layouts.footer')
 
     
